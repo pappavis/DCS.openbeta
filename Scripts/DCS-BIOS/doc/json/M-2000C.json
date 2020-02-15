@@ -1,0 +1,83 @@
+{
+      "Caution Lights Panel": {
+                                  "CLP_BAT": {
+                                                     "category": "Caution Lights Panel",
+                                                 "control_type": "led",
+                                                  "description": "BAT",
+                                                   "identifier": "CLP_BAT",
+                                                       "inputs": [  ],
+                                                      "outputs": [ {
+                                                                         "address": 9216,
+                                                                     "description": "0 if light is off, 1 if light is on",
+                                                                            "mask": 2,
+                                                                       "max_value": 1,
+                                                                        "shift_by": 1,
+                                                                          "suffix": "",
+                                                                            "type": "integer"
+                                                                 } ]
+                                             },
+                                  "CLP_DSY": {
+                                                     "category": "Caution Lights Panel",
+                                                 "control_type": "led",
+                                                  "description": "DSY",
+                                                   "identifier": "CLP_DSY",
+                                                       "inputs": [  ],
+                                                      "outputs": [ {
+                                                                         "address": 9216,
+                                                                     "description": "0 if light is off, 1 if light is on",
+                                                                            "mask": 8,
+                                                                       "max_value": 1,
+                                                                        "shift_by": 3,
+                                                                          "suffix": "",
+                                                                            "type": "integer"
+                                                                 } ]
+                                             },
+                                  "CLP_TRW": {
+                                                     "category": "Caution Lights Panel",
+                                                 "control_type": "led",
+                                                  "description": "TRW",
+                                                   "identifier": "CLP_TRW",
+                                                       "inputs": [  ],
+                                                      "outputs": [ {
+                                                                         "address": 9216,
+                                                                     "description": "0 if light is off, 1 if light is on",
+                                                                            "mask": 4,
+                                                                       "max_value": 1,
+                                                                        "shift_by": 2,
+                                                                          "suffix": "",
+                                                                            "type": "integer"
+                                                                 } ]
+                                             }
+                              },
+    "Electrical Power Panel": {
+                                  "BATTERY_POWER": {
+                                                                  "category": "Electrical Power Panel",
+                                                              "control_type": "selector",
+                                                               "description": "Battery Power",
+                                                                "identifier": "BATTERY_POWER",
+                                                                    "inputs": [ {
+                                                                                  "description": "switch to previous or next state",
+                                                                                    "interface": "fixed_step"
+                                                                              }, {
+                                                                                  "description": "set position",
+                                                                                    "interface": "set_state",
+                                                                                    "max_value": 1
+                                                                              }, {
+                                                                                     "argument": "TOGGLE",
+                                                                                  "description": "Toggle switch state",
+                                                                                    "interface": "action"
+                                                                              } ],
+                                                       "momentary_positions": "none",
+                                                                   "outputs": [ {
+                                                                                      "address": 9216,
+                                                                                  "description": "selector position",
+                                                                                         "mask": 1,
+                                                                                    "max_value": 1,
+                                                                                     "shift_by": 0,
+                                                                                       "suffix": "",
+                                                                                         "type": "integer"
+                                                                              } ],
+                                                          "physical_variant": "toggle_switch"
+                                                   }
+                              }
+}
