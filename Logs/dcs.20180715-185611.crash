@@ -1,0 +1,18 @@
+# -------------- 20180715-185611 --------------
+
+# C0000005 ACCESS_VIOLATION at 70A619B0 00:00000000
+00000000 00000000 0000:00000000 
+70A619B0 0097F1D0 0000:00000000 
+70B71242 0097F250 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\dx11backend.dll ?interframeResourceSync@DX11Renderer@RenderAPI@@UEAAX_N@Z()+184C2
+318C2737 0097F2F0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edCore.dll ?utf8_decode@ed@@YA?AV?$basic_string@_W@1@AEBV?$basic_string@D@1@@Z()+25B7
+79CB357D 0097F340 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\NGModel.dll ??1NGModel@model@@UEAA@XZ()+5D
+79CB3004 0097F380 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\NGModel.dll ?create_cookie@NGModelLods@model@@UEAA?AV?$shared_ptr@VModelCookie@Graphics@@@std@@PEAVModelInstance@Graphics@@@Z()+704
+43640456 0097F440 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\GraphicsVista.dll ?gc@Models@Graphics@@QEAAXXZ()+126
+4363C6DE 0097F470 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\GraphicsVista.dll ?FreeUnusedResources@Renderer@Graphics@@QEAAXXZ()+1E
+7B2697A5 0097F4B0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\Terrain.dll ?createGlobalLand@@YAXXZ()+13A5
+7B2683B9 0097F4E0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\Terrain.dll ?getStoreType@lWarehouseOwner@@UEBAIXZ()+29
+49B969D3 0097F550 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe
+49805355 0097FD30 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe
+49D326B3 0097FD70 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe
+AA131FE4 0097FDA0 0000:00000000 C:\WINDOWS\System32\KERNEL32.DLL BaseThreadInitThunk()+14
+AA89F061 0097FDF0 0000:00000000 C:\WINDOWS\SYSTEM32\ntdll.dll RtlUserThreadStart()+21

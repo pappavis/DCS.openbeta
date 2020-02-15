@@ -1,0 +1,741 @@
+=== Log opened UTC 2020-02-07 18:41:46
+2020-02-07 18:41:46.559 INFO    DCS: Command line: "K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin/DCS.exe"
+2020-02-07 18:41:46.559 INFO    DCS: DCS/2.5.5.41962 (x86_64; Windows NT 10.0.18362)
+2020-02-07 18:41:46.603 INFO    DCS: Hwid: S_BwrX2Kielr_VKBBRL9BaHHG2gs8f21PqiMpw
+2020-02-07 18:41:46.603 INFO    DCS: DCS revision: 161958
+2020-02-07 18:41:46.603 INFO    DCS: Renderer revision: 19709
+2020-02-07 18:41:46.603 INFO    DCS: Terrain revision: 19859
+2020-02-07 18:41:46.603 INFO    DCS: CPU cores: 8, threads: 16, System RAM: 32696 MB, Pagefile: 5524 MB
+2020-02-07 18:41:46.646 INFO    EDCORE: (dDispatcher)enterToState_:0
+2020-02-07 18:41:46.674 INFO    Dispatcher: 2020/2/7 19:41 V1803061700
+2020-02-07 18:41:46.776 INFO    INPUT: Device [Keyboard] created deviceId = -1
+2020-02-07 18:41:46.797 INFO    INPUT: Device [Joystick - HOTAS Warthog {ACE7D400-EE1C-11e9-8005-444553540000}] created deviceId = -1
+2020-02-07 18:41:46.797 INFO    INPUT: Joystick created[Joystick - HOTAS Warthog {ACE7D400-EE1C-11e9-8005-444553540000}], ForceFeedBack: no
+2020-02-07 18:41:46.798 INFO    INPUT: Device [Throttle - HOTAS Warthog {ACE8BE60-EE1C-11e9-8010-444553540000}] created deviceId = -1
+2020-02-07 18:41:46.798 INFO    INPUT: Joystick created[Throttle - HOTAS Warthog {ACE8BE60-EE1C-11e9-8010-444553540000}], ForceFeedBack: no
+2020-02-07 18:41:46.799 INFO    INPUT: Device [Saitek Pro Flight Rudder Pedals {ACE84930-EE1C-11e9-800B-444553540000}] created deviceId = -1
+2020-02-07 18:41:46.799 INFO    INPUT: Joystick created[Saitek Pro Flight Rudder Pedals {ACE84930-EE1C-11e9-800B-444553540000}], ForceFeedBack: no
+2020-02-07 18:41:46.808 INFO    INPUT: Device [Saitek Pro Gamer Command Unit {ACE8BE60-EE1C-11e9-8011-444553540000}] created deviceId = -1
+2020-02-07 18:41:46.808 INFO    INPUT: Joystick created[Saitek Pro Gamer Command Unit {ACE8BE60-EE1C-11e9-8011-444553540000}], ForceFeedBack: no
+2020-02-07 18:41:46.863 INFO    INPUT: Device [Mouse] created deviceId = -1
+2020-02-07 18:41:46.891 INFO    SOUND: Using driver: xaudio29
+2020-02-07 18:41:46.925 INFO    SOUND: Found 9 available audio device(s):
+2020-02-07 18:41:46.925 INFO    SOUND:   0: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{3865a3ca-614b-498f-8796-33d76e9fe94c}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Luidsprekers (15- Logitech G933 Gaming Headset)"
+2020-02-07 18:41:46.925 INFO    SOUND:   1: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{8f09d8dc-2c87-40c4-bcb2-1d33b4e47f61}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "SPDIF Out (Creative SB X-Fi)"
+2020-02-07 18:41:46.925 INFO    SOUND:   2: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{5ddb7797-ae95-4124-98dd-b6a36b3d8205}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Luidsprekers (Creative SB X-Fi)"
+2020-02-07 18:41:46.925 INFO    SOUND:   3: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{d4d3f4d8-fd91-4bf4-801b-c39550120dff}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "PLX2472HD (2- NVIDIA High Definition Audio)"
+2020-02-07 18:41:46.925 INFO    SOUND:   4: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{468157cc-984e-46fb-a575-fb488928013f}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "SMBX2431 (2- NVIDIA High Definition Audio)"
+2020-02-07 18:41:46.925 INFO    SOUND:   5: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{50d11cdd-e055-49bd-bf3e-ff54f8aa26e7}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Luidsprekers (Steam Streaming Speakers)"
+2020-02-07 18:41:46.925 INFO    SOUND:   6: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{719f73d5-351c-46d5-ac08-1e594e7c5df1}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Realtek Digital Output (3- Realtek(R) Audio)"
+2020-02-07 18:41:46.925 INFO    SOUND:   7: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{cbd94892-38d9-40aa-8cd0-18cad82524e7}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Luidsprekers (Steam Streaming Microphone)"
+2020-02-07 18:41:46.925 INFO    SOUND:   8: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{4516fd17-a3ec-48da-a08f-22e5acf79ef7}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Hoofdtelefoon (Realtek USB2.0 Audio)"
+2020-02-07 18:41:47.236 INFO    SOUND: loaded 1578 sdefs from "sounds\sdef\"
+2020-02-07 18:41:47.236 INFO    SOUNDER: Preloading Sounders from Sounds\Sounders
+2020-02-07 18:41:47.293 INFO    Dispatcher: InitLow
+2020-02-07 18:41:47.544 INFO    NET: Login success.
+2020-02-07 18:41:48.272 INFO    NET: Got auth data.
+2020-02-07 18:41:48.311 INFO    DCS: Successfully got authorization data.
+2020-02-07 18:41:49.303 INFO    Dispatcher: Loading installed modules...
+2020-02-07 18:41:49.602 INFO    SECURITYCONTROL: Loaded mods/tech/wwii units/dcs_module.pak.crypt
+2020-02-07 18:41:52.215 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./CoreMods/aircraft/AJS37/entry.lua
+2020-02-07 18:41:52.331 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./Mods/aircraft/AJS37/entry.lua
+2020-02-07 18:41:52.336 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./Mods/aircraft/F14/entry.lua
+2020-02-07 18:41:52.374 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/Civil Aircraft Mod/entry.lua
+2020-02-07 18:41:52.384 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/MIG-23/entry.lua
+2020-02-07 18:41:52.386 ALERT   Scripting: loadfile: can't open 'C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/MIG-23/smoke.lua'
+2020-02-07 18:41:52.391 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/SU-57/entry.lua
+2020-02-07 18:41:52.392 ALERT   Scripting: loadfile: can't open 'C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/SU-57/Scripts/SU-57 AeroDynamics.lua'
+2020-02-07 18:41:52.394 ALERT   Scripting: loadfile: can't open 'C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/SU-57/Views.lua'
+2020-02-07 18:41:52.400 INFO    Scripting: PLUGINS START-------------------------------------------------
+2020-02-07 18:41:52.451 INFO    SOUNDER: Preloading Sounders from .\CoreMods\tech\TechWeaponPack\Sounds\Sounders
+2020-02-07 18:41:52.489 INFO    SOUNDER: Preloading Sounders from .\CoreMods\tech\USS John C Stennis\Sounds\Sounders
+2020-02-07 18:41:52.502 INFO    SOUND: loaded 26 sdefs from ".\coremods\aircraft\ajs37\sounds\sdef\"
+2020-02-07 18:41:52.529 INFO    SOUND: loaded 15 sdefs from ".\coremods\aircraft\av8bna\sounds\sdef\"
+2020-02-07 18:41:52.529 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\AV8BNA\Sounds\Sounders
+2020-02-07 18:41:52.537 WARNING EDCORE: Source ./CoreMods/aircraft/AV8BNA/Shapes is already mounted to the same mount /models/.
+2020-02-07 18:41:52.579 INFO    SOUND: loaded 11 sdefs from ".\coremods\aircraft\c-101\sounds\sdef\"
+2020-02-07 18:41:52.610 WARNING EDCORE: Source ./CoreMods/aircraft/C-101/Liveries is already mounted to the same mount /textures//liveries/.
+2020-02-07 18:41:52.620 INFO    SOUND: loaded 28 sdefs from ".\coremods\aircraft\chinaassetpack\sounds\sdef\"
+2020-02-07 18:41:52.620 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\ChinaAssetPack\Sounds\Sounders
+2020-02-07 18:41:52.722 INFO    SOUND: loaded 5 sdefs from ".\coremods\aircraft\christen eagle ii\sounds\sdef\"
+2020-02-07 18:41:52.747 ERROR   EDCORE: Can't mount coremods/aircraft/christen eagle ii/textures2. Drivers errors: 
+2020-02-07 18:41:52.747 ERROR   EDCORE: 	EDCDriver: there is no directory coremods/aircraft/christen eagle ii/textures2.edc
+2020-02-07 18:41:52.747 ERROR   EDCORE: 	FSDriver: there is no directory coremods/aircraft/christen eagle ii/textures2
+2020-02-07 18:41:52.747 ERROR   EDCORE: 	ZipDriver: Can't open zip archive coremods/aircraft/christen eagle ii/textures2.zip.
+2020-02-07 18:41:52.858 INFO    SOUND: loaded 26 sdefs from ".\coremods\aircraft\f14\sounds\sdef\"
+2020-02-07 18:41:52.858 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\F14\Sounds\Sounders
+2020-02-07 18:41:52.879 ERROR   EDCORE: Can't mount coremods/aircraft/f14/textures/lns_f14_exterior. Drivers errors: 
+2020-02-07 18:41:52.879 ERROR   EDCORE: 	EDCDriver: there is no directory coremods/aircraft/f14/textures/lns_f14_exterior.edc
+2020-02-07 18:41:52.879 ERROR   EDCORE: 	FSDriver: there is no directory coremods/aircraft/f14/textures/lns_f14_exterior
+2020-02-07 18:41:52.879 ERROR   EDCORE: 	ZipDriver: Can't open zip archive coremods/aircraft/f14/textures/lns_f14_exterior.zip.
+2020-02-07 18:41:53.001 INFO    SOUND: loaded 30 sdefs from ".\coremods\aircraft\i-16\sounds\sdef\"
+2020-02-07 18:41:53.034 INFO    SOUND: loaded 19 sdefs from ".\coremods\aircraft\m-2000c\sounds\sdef\"
+2020-02-07 18:41:53.086 INFO    SOUND: loaded 7 sdefs from ".\coremods\aircraft\mig-21bis\sounds\sdef\"
+2020-02-07 18:41:53.116 INFO    SOUND: loaded 2 sdefs from ".\coremods\aircraft\sa342\sounds\sdef\"
+2020-02-07 18:41:53.162 INFO    SOUND: loaded 59 sdefs from ".\mods\tech\combinedarms\sounds\sdef\"
+2020-02-07 18:41:53.173 INFO    SOUND: loaded 47 sdefs from ".\mods\tech\wwii units\sounds\sdef\"
+2020-02-07 18:41:53.173 INFO    SOUNDER: Preloading Sounders from .\Mods\tech\WWII Units\Sounds\Sounders
+2020-02-07 18:41:53.293 INFO    Scripting: plugin: SKIPPED 'A-10A by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2020-02-07 18:41:53.323 INFO    SOUND: loaded 137 sdefs from ".\mods\aircraft\ajs37\sounds\sdef\"
+2020-02-07 18:41:53.346 INFO    SOUND: loaded 50 sdefs from ".\mods\aircraft\av8bna\sounds\sdef\"
+2020-02-07 18:41:53.368 INFO    SOUND: loaded 72 sdefs from ".\mods\aircraft\bf-109k-4\sounds\sdef\"
+2020-02-07 18:41:53.392 INFO    SOUND: loaded 112 sdefs from ".\mods\aircraft\c-101\sounds\sdef\"
+2020-02-07 18:41:53.402 INFO    SOUND: loaded 14 sdefs from ".\mods\aircraft\christen eagle ii\sounds\sdef\"
+2020-02-07 18:41:53.405 ERROR   EDCORE: Can't mount mods/aircraft/christen eagle ii/textures/pbr. Drivers errors: 
+2020-02-07 18:41:53.405 ERROR   EDCORE: 	EDCDriver: there is no directory mods/aircraft/christen eagle ii/textures/pbr.edc
+2020-02-07 18:41:53.405 ERROR   EDCORE: 	FSDriver: there is no directory mods/aircraft/christen eagle ii/textures/pbr
+2020-02-07 18:41:53.405 ERROR   EDCORE: 	ZipDriver: Can't open zip archive mods/aircraft/christen eagle ii/textures/pbr.zip.
+2020-02-07 18:41:53.405 ERROR   EDCORE: Can't mount mods/aircraft/christen eagle ii/textures/avionics. Drivers errors: 
+2020-02-07 18:41:53.405 ERROR   EDCORE: 	EDCDriver: there is no directory mods/aircraft/christen eagle ii/textures/avionics.edc
+2020-02-07 18:41:53.405 ERROR   EDCORE: 	FSDriver: there is no directory mods/aircraft/christen eagle ii/textures/avionics
+2020-02-07 18:41:53.405 ERROR   EDCORE: 	ZipDriver: Can't open zip archive mods/aircraft/christen eagle ii/textures/avionics.zip.
+2020-02-07 18:41:53.421 INFO    SOUND: loaded 71 sdefs from ".\mods\aircraft\f-5e\sounds\sdef\"
+2020-02-07 18:41:53.435 INFO    SOUND: loaded 53 sdefs from ".\mods\aircraft\f-86\sounds\sdef\"
+2020-02-07 18:41:55.125 INFO    SOUND: loaded 8889 sdefs from ".\mods\aircraft\f14\sounds\sdef\"
+2020-02-07 18:41:55.147 ERROR   EDCORE: Can't mount mods/aircraft/f14/textures/color/dynamic. Drivers errors: 
+2020-02-07 18:41:55.147 ERROR   EDCORE: 	EDCDriver: there is no directory mods/aircraft/f14/textures/color/dynamic.edc
+2020-02-07 18:41:55.147 ERROR   EDCORE: 	FSDriver: there is no directory mods/aircraft/f14/textures/color/dynamic
+2020-02-07 18:41:55.147 ERROR   EDCORE: 	ZipDriver: Can't open zip archive mods/aircraft/f14/textures/color/dynamic.zip.
+2020-02-07 18:41:55.148 ERROR   EDCORE: Can't mount mods/aircraft/f14/textures/chromecatlegacy. Drivers errors: 
+2020-02-07 18:41:55.148 ERROR   EDCORE: 	EDCDriver: there is no directory mods/aircraft/f14/textures/chromecatlegacy.edc
+2020-02-07 18:41:55.148 ERROR   EDCORE: 	FSDriver: there is no directory mods/aircraft/f14/textures/chromecatlegacy
+2020-02-07 18:41:55.148 ERROR   EDCORE: 	ZipDriver: Can't open zip archive mods/aircraft/f14/textures/chromecatlegacy.zip.
+2020-02-07 18:41:55.180 INFO    SOUND: loaded 103 sdefs from ".\mods\aircraft\fa-18c\sounds\sdef\"
+2020-02-07 18:41:55.202 INFO    SOUND: loaded 69 sdefs from ".\mods\aircraft\fw-190d9\sounds\sdef\"
+2020-02-07 18:41:55.213 INFO    SOUND: loaded 47 sdefs from ".\mods\aircraft\i-16\sounds\sdef\"
+2020-02-07 18:41:55.216 INFO    SOUND: loaded 4 sdefs from ".\mods\aircraft\ka-50\sounds\sdef\"
+2020-02-07 18:41:55.244 INFO    SOUND: loaded 109 sdefs from ".\mods\aircraft\l-39c\sounds\sdef\"
+2020-02-07 18:41:55.259 INFO    SOUND: loaded 44 sdefs from ".\mods\aircraft\m-2000c\sounds\sdef\"
+2020-02-07 18:41:55.281 INFO    SOUND: loaded 70 sdefs from ".\mods\aircraft\mig-21bis\sounds\sdef\"
+2020-02-07 18:41:55.320 INFO    SOUND: loaded 109 sdefs from ".\mods\aircraft\mi-8mtv2\sounds\sdef\"
+2020-02-07 18:41:55.343 INFO    SOUND: loaded 72 sdefs from ".\mods\aircraft\mig-15bis\sounds\sdef\"
+2020-02-07 18:41:55.362 INFO    SOUND: loaded 51 sdefs from ".\mods\aircraft\mig-19p\sounds\sdef\"
+2020-02-07 18:41:55.383 INFO    SOUND: loaded 8 sdefs from ".\mods\aircraft\ns430\sounds\sdef\"
+2020-02-07 18:41:55.403 INFO    SOUND: loaded 92 sdefs from ".\mods\aircraft\sa342\sounds\sdef\"
+2020-02-07 18:41:55.405 INFO    Scripting: plugin: SKIPPED 'Su-25A by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2020-02-07 18:41:55.408 INFO    Scripting: plugin: SKIPPED 'Su-27 Flanker by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2020-02-07 18:41:55.417 INFO    SOUND: loaded 21 sdefs from ".\mods\aircraft\uh-1h\sounds\sdef\"
+2020-02-07 18:41:55.436 INFO    SOUND: loaded 62 sdefs from ".\mods\aircraft\yak-52\sounds\sdef\"
+2020-02-07 18:41:55.456 INFO    SOUND: loaded 34 sdefs from "c:\users\pappa\saved games\dcs.openbeta\mods\aircraft\a-4e-c\sounds\sdef\"
+2020-02-07 18:41:55.549 INFO    SOUND: loaded 45 sdefs from "c:\users\pappa\saved games\dcs.openbeta\mods\aircraft\mb-339pan\sounds\sdef\"
+2020-02-07 18:41:55.569 ERROR   EDCORE: Can't mount c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/cockpit/resources/model/textures/mig-23-cpt-textures. Drivers errors: 
+2020-02-07 18:41:55.569 ERROR   EDCORE: 	EDCDriver: there is no directory c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/cockpit/resources/model/textures/mig-23-cpt-textures.edc
+2020-02-07 18:41:55.569 ERROR   EDCORE: 	FSDriver: there is no directory c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/cockpit/resources/model/textures/mig-23-cpt-textures
+2020-02-07 18:41:55.569 ERROR   EDCORE: 	ZipDriver: Can't open zip archive c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/cockpit/resources/model/textures/mig-23-cpt-textures.zip.
+2020-02-07 18:41:55.569 ERROR   EDCORE: Can't mount c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/skins/1/me. Drivers errors: 
+2020-02-07 18:41:55.569 ERROR   EDCORE: 	EDCDriver: there is no directory c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/skins/1/me.edc
+2020-02-07 18:41:55.569 ERROR   EDCORE: 	FSDriver: there is no directory c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/skins/1/me
+2020-02-07 18:41:55.569 ERROR   EDCORE: 	ZipDriver: Can't open zip archive c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/skins/1/me.zip.
+2020-02-07 18:41:55.570 ERROR   EDCORE: Can't mount c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/textures/mig-23. Drivers errors: 
+2020-02-07 18:41:55.570 ERROR   EDCORE: 	EDCDriver: there is no directory c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/textures/mig-23.edc
+2020-02-07 18:41:55.570 ERROR   EDCORE: 	FSDriver: there is no directory c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/textures/mig-23
+2020-02-07 18:41:55.570 ERROR   EDCORE: 	ZipDriver: Can't open zip archive c:/users/pappa/saved games/dcs.openbeta/mods/aircraft/mig-23/textures/mig-23.zip.
+2020-02-07 18:41:55.588 WARNING EDCORE: Source C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/MiG-23UB/Liveries is already mounted to the same mount /textures//liveries/.
+2020-02-07 18:41:55.593 INFO    SOUND: loaded 6 sdefs from "c:\users\pappa\saved games\dcs.openbeta\mods\aircraft\su-57\sounds\sdef\"
+2020-02-07 18:41:55.612 INFO    Scripting: weapons.missiles
+2020-02-07 18:41:55.612 INFO    Scripting: not string tbl.name
+2020-02-07 18:41:55.612 INFO    Scripting: exhaust:table: 0000000020441758,
+2020-02-07 18:41:55.612 INFO    Scripting: H_min_t:20,
+2020-02-07 18:41:55.612 INFO    Scripting: H_max:40000,
+2020-02-07 18:41:55.612 INFO    Scripting: _file:C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/SU-57/Scripts/Weapons.lua,
+2020-02-07 18:41:55.612 INFO    Scripting: Cx_pil:3,
+2020-02-07 18:41:55.612 INFO    Scripting: Damage:106.25,
+2020-02-07 18:41:55.612 INFO    Scripting: Head_Form:1,
+2020-02-07 18:41:55.612 INFO    Scripting: Diam:380,
+2020-02-07 18:41:55.612 INFO    Scripting: Head_Type:6,
+2020-02-07 18:41:55.612 INFO    Scripting: ws_type:table: 00000000204410A8,
+2020-02-07 18:41:55.612 INFO    Scripting: t_acc:6,
+2020-02-07 18:41:55.612 INFO    Scripting: ModelData:table: 000000002043DB38,
+2020-02-07 18:41:55.612 INFO    Scripting: _origin:SU-57 PAK FA by CUBANACE SIMULATIONS,
+2020-02-07 18:41:55.612 INFO    Scripting: Reflection:0.081,
+2020-02-07 18:41:55.612 INFO    Scripting: t_b:0.1,
+2020-02-07 18:41:55.612 INFO    Scripting: wsTypeOfWeapon:table: 00000000204410A8,
+2020-02-07 18:41:55.612 INFO    Scripting: ccm_k0:0.1,
+2020-02-07 18:41:55.612 INFO    Scripting: KillDistance:20,
+2020-02-07 18:41:55.612 INFO    Scripting: v_min:140,
+2020-02-07 18:41:55.612 INFO    Scripting: sigma:table: 0000000020441148,
+2020-02-07 18:41:55.612 INFO    Scripting: shape_table_data:table: 000000002043AB78,
+2020-02-07 18:41:55.612 INFO    Scripting: Life_Time:240,
+2020-02-07 18:41:55.612 INFO    Scripting: Z_back:0,
+2020-02-07 18:41:55.612 INFO    Scripting: display_name:RVV-AE,
+2020-02-07 18:41:55.612 INFO    Scripting: category:4,
+2020-02-07 18:41:55.612 INFO    Scripting: M:250,
+2020-02-07 18:41:55.612 INFO    Scripting: Y_back:-0.193,
+2020-02-07 18:41:55.612 INFO    Scripting: t_marsh:100,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_rak:3.14152,
+2020-02-07 18:41:55.612 INFO    Scripting: X_back:-1.333,
+2020-02-07 18:41:55.612 INFO    Scripting: warhead:table: 00000000204411E8,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_excort:0.87,
+2020-02-07 18:41:55.612 INFO    Scripting: D_max:95000,
+2020-02-07 18:41:55.612 INFO    Scripting: OmViz_max:0.35,
+2020-02-07 18:41:55.612 INFO    Scripting: Escort:0,
+2020-02-07 18:41:55.612 INFO    Scripting: Range_max:280000,
+2020-02-07 18:41:55.612 INFO    Scripting: H_min:10,
+2020-02-07 18:41:55.612 INFO    Scripting: user_name:RVV-AE,
+2020-02-07 18:41:55.612 INFO    Scripting: Mach_max:4.5,
+2020-02-07 18:41:55.612 INFO    Scripting: Name:338,
+2020-02-07 18:41:55.612 INFO    Scripting: D_min:1000,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_start:0.3,
+2020-02-07 18:41:55.612 INFO    Scripting: v_mid:960,
+2020-02-07 18:41:55.612 INFO    Scripting: Nr_max:12,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_search:0.87,
+2020-02-07 18:41:55.612 INFO    Scripting: weapons.missiles
+2020-02-07 18:41:55.612 INFO    Scripting: not string tbl.name
+2020-02-07 18:41:55.612 INFO    Scripting: exhaust:table: 000000001F2D3390,
+2020-02-07 18:41:55.612 INFO    Scripting: H_min_t:20,
+2020-02-07 18:41:55.612 INFO    Scripting: H_max:24400,
+2020-02-07 18:41:55.612 INFO    Scripting: _file:C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/SU-57/Scripts/Weapons.lua,
+2020-02-07 18:41:55.612 INFO    Scripting: Cx_pil:5,
+2020-02-07 18:41:55.612 INFO    Scripting: Damage:93.5,
+2020-02-07 18:41:55.612 INFO    Scripting: Head_Form:1,
+2020-02-07 18:41:55.612 INFO    Scripting: Diam:380,
+2020-02-07 18:41:55.612 INFO    Scripting: Head_Type:2,
+2020-02-07 18:41:55.612 INFO    Scripting: ws_type:table: 000000001F2CD8E0,
+2020-02-07 18:41:55.612 INFO    Scripting: t_acc:6,
+2020-02-07 18:41:55.612 INFO    Scripting: ModelData:table: 000000001F2D3580,
+2020-02-07 18:41:55.612 INFO    Scripting: _origin:SU-57 PAK FA by CUBANACE SIMULATIONS,
+2020-02-07 18:41:55.612 INFO    Scripting: Reflection:0.076,
+2020-02-07 18:41:55.612 INFO    Scripting: t_b:0,
+2020-02-07 18:41:55.612 INFO    Scripting: wsTypeOfWeapon:table: 000000001F2CD8E0,
+2020-02-07 18:41:55.612 INFO    Scripting: ccm_k0:0,
+2020-02-07 18:41:55.612 INFO    Scripting: KillDistance:15,
+2020-02-07 18:41:55.612 INFO    Scripting: v_min:140,
+2020-02-07 18:41:55.612 INFO    Scripting: sigma:table: 000000001F2D29A0,
+2020-02-07 18:41:55.612 INFO    Scripting: shape_table_data:table: 000000001F2D3430,
+2020-02-07 18:41:55.612 INFO    Scripting: Life_Time:300,
+2020-02-07 18:41:55.612 INFO    Scripting: Z_back:0,
+2020-02-07 18:41:55.612 INFO    Scripting: display_name:RVV-M,
+2020-02-07 18:41:55.612 INFO    Scripting: category:4,
+2020-02-07 18:41:55.612 INFO    Scripting: M:190,
+2020-02-07 18:41:55.612 INFO    Scripting: Y_back:-0.111,
+2020-02-07 18:41:55.612 INFO    Scripting: t_marsh:40,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_rak:3.14152,
+2020-02-07 18:41:55.612 INFO    Scripting: X_back:-1.222,
+2020-02-07 18:41:55.612 INFO    Scripting: warhead:table: 000000001F2D2A40,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_excort:0.87,
+2020-02-07 18:41:55.612 INFO    Scripting: D_max:60000,
+2020-02-07 18:41:55.612 INFO    Scripting: OmViz_max:0.35,
+2020-02-07 18:41:55.612 INFO    Scripting: Escort:0,
+2020-02-07 18:41:55.612 INFO    Scripting: Range_max:140000,
+2020-02-07 18:41:55.612 INFO    Scripting: H_min:15,
+2020-02-07 18:41:55.612 INFO    Scripting: user_name:RVV-M,
+2020-02-07 18:41:55.612 INFO    Scripting: Mach_max:4.5,
+2020-02-07 18:41:55.612 INFO    Scripting: Name:339,
+2020-02-07 18:41:55.612 INFO    Scripting: D_min:1000,
+2020-02-07 18:41:55.612 INFO    Scripting: Fi_start:0.3,
+2020-02-07 18:41:55.612 INFO    Scripting: v_mid:800,
+2020-02-07 18:41:55.612 INFO    Scripting: Nr_max:12,
+2020-02-07 18:41:55.613 INFO    Scripting: Fi_search:0.87,
+2020-02-07 18:41:55.613 INFO    Scripting: plugin: SKIPPED 'F-15C': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2020-02-07 18:41:55.613 INFO    Scripting: plugin: SKIPPED 'MiG-29 Fulcrum by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2020-02-07 18:41:55.613 INFO    Scripting: plugin: SKIPPED 'Su-33 Flanker by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2020-02-07 18:41:55.616 INFO    Scripting: PLUGINS DONE--------------------------------------------------
+2020-02-07 18:41:56.030 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/AV8BNA/bin/AV8B_AI.dll
+2020-02-07 18:41:56.035 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/C-101/bin/C101Core.dll
+2020-02-07 18:41:56.041 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/ChinaAssetPack/bin/JF-17_AI.dll
+2020-02-07 18:41:56.045 INFO    CE2_AI: Loading CE AI
+2020-02-07 18:41:56.045 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/Christen Eagle II/bin/CE2_AI.dll
+2020-02-07 18:41:56.051 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/F14/bin/F14-AI.dll
+2020-02-07 18:41:56.056 INFO    MiG21_AI: Loading CE AI
+2020-02-07 18:41:56.056 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/MiG-21BIS/bin/MiG21_AI.dll
+2020-02-07 18:41:56.064 INFO    SECURITYCONTROL: Loaded ./CoreMods/services/CaptoGlove/bin/edCaptoGlove.dll
+2020-02-07 18:41:56.096 INFO    SECURITYCONTROL: Loaded ./CoreMods/services/VoiceChat/bin/VoiceChat.dll
+2020-02-07 18:41:57.045 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/tech/CombinedArms/bin/GroundCockpitBase.dll.crypt
+2020-02-07 18:41:57.046 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/tech/CombinedArms/bin/CombinedArms.dll.crypt
+2020-02-07 18:41:57.863 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/FC3.dll
+2020-02-07 18:41:57.923 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/A10A.dll
+2020-02-07 18:41:58.018 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/F15.dll
+2020-02-07 18:41:58.218 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/Su27.dll
+2020-02-07 18:41:58.497 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/Su33.dll
+2020-02-07 18:41:58.502 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/MiG29.dll
+2020-02-07 18:41:59.288 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/A-10C/bin/A10.dll
+2020-02-07 18:41:59.352 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/A-10C/bin/Cockpit_A10Common.dll
+2020-02-07 18:41:59.498 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/A-10C/bin/Cockpit_A10C.dll
+2020-02-07 18:41:59.507 INFO    VIGGEN: AJS37.dll built on Jan  6 2020 15:33:52 SDK: 2 5 5 41614 Run-time: 2.5.5.41962
+2020-02-07 18:41:59.507 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AJS37/bin/AJS37.dll.crypt
+2020-02-07 18:41:59.537 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AJS37/bin/AJS37-Avionics.dll.crypt
+2020-02-07 18:41:59.548 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AV8BNA/bin/AV8B_CPT.dll.crypt
+2020-02-07 18:41:59.549 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/AV8BNA/bin/AV8B_FM.dll.crypt
+2020-02-07 18:41:59.568 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Bf-109K-4/bin/Bf109K4.dll.crypt
+2020-02-07 18:41:59.568 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/C-101/bin/C101Shared.dll.crypt
+2020-02-07 18:41:59.572 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/C-101/bin/C101EBSys.dll.crypt
+2020-02-07 18:41:59.578 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/C-101/bin/C101CCSys.dll.crypt
+2020-02-07 18:41:59.580 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/C-101/bin/C101FM.dll.crypt
+2020-02-07 18:41:59.581 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Christen Eagle II/bin/CE2_FlightModel.dll.crypt
+2020-02-07 18:41:59.584 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Christen Eagle II/bin/CE2_Avionics.dll.crypt
+2020-02-07 18:41:59.591 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F-5E/bin/F5E.dll.crypt
+2020-02-07 18:41:59.597 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F-86/bin/F86.dll.crypt
+2020-02-07 18:41:59.599 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F14/bin/F14-HeatblurCommon.dll.crypt
+2020-02-07 18:41:59.623 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F14/bin/F14-FlightModel.dll.crypt
+2020-02-07 18:41:59.648 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/F14/bin/F14-Avionics.dll.crypt
+2020-02-07 18:41:59.673 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/FA-18C/bin/FA18C.dll.crypt
+2020-02-07 18:41:59.686 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/FW-190D9/bin/FW190D9.dll.crypt
+2020-02-07 18:41:59.689 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/FW-190D9/bin/Cockpit_FW190D9.dll.crypt
+2020-02-07 18:41:59.690 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/I-16/bin/I16FM.dll.crypt
+2020-02-07 18:42:00.389 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Ka-50/bin/Ka50.dll
+2020-02-07 18:42:00.437 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Ka-50/bin/CockpitKa50.dll
+2020-02-07 18:42:00.446 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/L-39C/bin/L39C.dll.crypt
+2020-02-07 18:42:00.448 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/M-2000C/bin/M2KC_FM.dll.crypt
+2020-02-07 18:42:00.457 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/M-2000C/bin/M2KC_CPT.dll.crypt
+2020-02-07 18:42:00.458 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MIG-21bis/bin/FlightModel.dll.crypt
+2020-02-07 18:42:00.463 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MIG-21bis/bin/Avionics.dll.crypt
+2020-02-07 18:42:00.466 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Mi-8MTV2/bin/Mi8.dll.crypt
+2020-02-07 18:42:00.475 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Mi-8MTV2/bin/CockpitMi8.dll.crypt
+2020-02-07 18:42:00.482 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MiG-15bis/bin/Mig15.dll.crypt
+2020-02-07 18:42:00.482 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MiG-19P/bin/MIG19P_FM.dll.crypt
+2020-02-07 18:42:00.488 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MiG-19P/bin/MIG19P_CPT.dll.crypt
+2020-02-07 18:42:00.543 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/jsAvionics/bin/jsAvionics.dll
+2020-02-07 18:42:00.545 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/NS430/bin/NS430.dll.crypt
+2020-02-07 18:42:00.548 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/P-51D/bin/P51Base.dll.crypt
+2020-02-07 18:42:00.548 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/P-51D/bin/P51B.dll.crypt
+2020-02-07 18:42:00.552 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/P-51D/bin/Cockpit_P51Common.dll.crypt
+2020-02-07 18:42:00.553 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/P-51D/bin/Cockpit_P51D.dll.crypt
+2020-02-07 18:42:00.560 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/SA342/bin/SA342.dll.crypt
+2020-02-07 18:42:00.568 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/P51Base.dll
+2020-02-07 18:42:00.576 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/TF51D.dll
+2020-02-07 18:42:00.587 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/Cockpit_P51Common.dll
+2020-02-07 18:42:00.591 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Uh-1H/bin/UH1H.dll.crypt
+2020-02-07 18:42:00.620 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Uh-1H/bin/CockpitUH1H.dll.crypt
+2020-02-07 18:42:00.625 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Yak-52/bin/Yak52.dll.crypt
+2020-02-07 18:42:00.636 INFO    SECURITYCONTROL: Loaded C:\Users\pappa\Saved Games\DCS.openbeta\Mods/tech/DCS-SRS/bin/srs.dll
+2020-02-07 18:42:00.667 INFO    SECURITYCONTROL: Loaded C:\Users\pappa\Saved Games\DCS.openbeta\Mods/tech/LotAtc/bin/libeay32.dll
+2020-02-07 18:42:00.693 INFO    SECURITYCONTROL: Loaded C:\Users\pappa\Saved Games\DCS.openbeta\Mods/tech/LotAtc/bin/Qt5Corelotatc.dll
+2020-02-07 18:42:00.701 INFO    SECURITYCONTROL: Loaded C:\Users\pappa\Saved Games\DCS.openbeta\Mods/tech/LotAtc/bin/Qt5Sqllotatc.dll
+2020-02-07 18:42:00.715 INFO    SECURITYCONTROL: Loaded C:\Users\pappa\Saved Games\DCS.openbeta\Mods/tech/LotAtc/bin/Qt5Networklotatc.dll
+2020-02-07 18:42:00.722 INFO    SECURITYCONTROL: Loaded C:\Users\pappa\Saved Games\DCS.openbeta\Mods/aircraft/MB-339PAN/bin/MB339.dll
+2020-02-07 18:42:01.301 INFO    DCS: options.graphics =
+{
+	['messagesFontScale'] = 1;
+	['rainDroplets'] = true;
+	['LensEffects'] = 0;
+	['heatBlr'] = 1;
+	['anisotropy'] = 3;
+	['water'] = 2;
+	['motionBlur'] = 0;
+	['outputGamma'] = 2.2;
+	['treesVisibility'] = 10000;
+	['aspect'] = 1.7777777777778;
+	['lights'] = 2;
+	['shadows'] = 4;
+	['MSAA'] = 1;
+	['SSAA'] = 1;
+	['civTraffic'] = 'high';
+	['clutterMaxDistance'] = 1000;
+	['cockpitGI'] = 1;
+	['terrainTextures'] = 'max';
+	['multiMonitorSetup'] = '1camera';
+	['shadowTree'] = false;
+	['chimneySmokeDensity'] = 5;
+	['fullScreen'] = false;
+	['DOF'] = 0;
+	['clouds'] = 1;
+	['flatTerrainShadows'] = 0;
+	['forestDistanceFactor'] = 1;
+	['width'] = 2880;
+	['visibRange'] = 'Ultra';
+	['effects'] = 3;
+	['SSAO'] = 0;
+	['useDeferredShading'] = 1;
+	['sync'] = false;
+	['textures'] = 2;
+	['scaleGui'] = true;
+	['preloadRadius'] = 60000;
+	['height'] = 1620;
+	['terrainMapMFD'] = 
+	{
+		['distance'] = 
+		{
+			['mapLodDistance3'] = 200000;
+			['mapLodDistance2'] = 100000;
+			['mapLodDistance0'] = 25000;
+			['mapLodDistance1'] = 50000;
+		};
+	};
+};
+2020-02-07 18:42:02.626 INFO    VISUALIZER: LAUNCH IN VR : OpenVR : HP Reverb VR Headset VR1000-2xxx0
+2020-02-07 18:42:02.630 INFO    GRAPHICSVISTA: renderer: 'dx11backend.dll'
+2020-02-07 18:42:02.698 INFO    DX11BACKEND: Driver Concurrent Creates - 1
+2020-02-07 18:42:02.698 INFO    DX11BACKEND: Driver Command Lists - 1
+2020-02-07 18:42:02.702 INFO    DX11BACKEND: NVIDIA API init OK
+2020-02-07 18:42:02.703 INFO    DX11BACKEND: NVIDIA Display Driver Version 41634.r416_27
+2020-02-07 18:42:02.703 INFO    DX11BACKEND: TRUNK renderer init: showShaderError coreCount=1
+2020-02-07 18:42:02.902 INFO    DX11BACKEND: commonPool: 68-128, cbPool: 5-14, samplerPool: 5-16
+2020-02-07 18:42:02.934 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache Bazar/shaders/fxo/fxo.zip
+2020-02-07 18:42:04.375 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 1019/1019.
+2020-02-07 18:42:04.446 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache C:\Users\pappa\Saved Games\DCS.openbeta\fxo
+2020-02-07 18:42:04.724 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 486/486.
+2020-02-07 18:42:04.981 INFO    VISUALIZER: SceneManager initialization
+2020-02-07 18:42:05.580 INFO    VISUALIZER: cascade shadows init (preset:'default' quality:4 layers:4 size:4096)
+2020-02-07 18:42:05.653 INFO    SOUND: XAudio2: channel layout: Headphones/Stereo
+2020-02-07 18:42:05.653 INFO    SOUND: Using SSE FTZ/DAZ mode.
+2020-02-07 18:42:05.674 INFO    DCS: gDescription: "NVIDIA GeForce RTX 2070" gVendorId: 4318 gDeviceId: 7938 gMemory: 8031 MB
+2020-02-07 18:42:05.687 ERROR   EDOBJECTS: Destruction shape not found AVIASHTAB_CRASH
+2020-02-07 18:42:05.690 ERROR   EDOBJECTS: Object HB_F14_EXT_PHX_ALU with id=308 already declared in table MissileTable
+2020-02-07 18:42:06.912 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache ./Mods/aircraft/F14/fxo
+2020-02-07 18:42:06.912 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 0/0.
+2020-02-07 18:42:07.019 INFO    EDCORE: (dDispatcher)enterToState_:1
+2020-02-07 18:42:07.025 ERROR   GRAPHICSCORE: Failed assert `(realDesc.format == d.apidesc.format) && (realDesc.msaa == d.apidesc.msaa) && (realDesc.type == d.apidesc.type) && (realDesc.width == x) && (realDesc.height == y)` at d:\projects\buildslave\nevada_testing\build\projects\render\inc\rwrappers\inl/FrameBuffer.inl:161
+2020-02-07 18:42:07.906 WARNING LOG: 1 duplicate message(s) skipped.
+2020-02-07 18:42:07.906 INFO    LuaNET: [LotAtc] Profile : load profile advanced-realistic.lua
+2020-02-07 18:42:07.906 INFO    LuaNET: [LotAtc] Profile : load profile arcade.lua
+2020-02-07 18:42:07.906 INFO    LuaNET: [LotAtc] Profile : load profile basic.lua
+2020-02-07 18:42:07.906 INFO    LuaNET: [LotAtc] Profile : load profile custom.lua
+2020-02-07 18:42:07.907 INFO    LuaNET: [LotAtc] Profile : load profile mission.lua
+2020-02-07 18:42:07.907 INFO    LuaNET: [LotAtc] Profile : load profile realistic.lua
+2020-02-07 18:42:09.578 INFO    UIBASERENDERER: Cannot load font [K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\dxgui\skins\fonts\]!
+2020-02-07 18:42:11.296 INFO    LuaNET: Loading - DCS-SRS GameGUI - Ciribob: 1.7.3.0
+2020-02-07 18:42:11.300 INFO    LuaNET: Loaded - DCS-SRS GameGUI - Ciribob: 1.7.3.0
+2020-02-07 18:42:11.301 INFO    LuaNET: Loading - DCS-SRS Overlay GameGUI - Ciribob: 1.7.3.0 
+2020-02-07 18:42:11.301 INFO    LuaNET: Loaded - DCS-SRS Overlay GameGUI - Ciribob: 1.7.3.0 
+2020-02-07 18:42:11.302 INFO    LuaNET: [LOTATC] GameGUI loading...
+2020-02-07 18:42:11.302 INFO    LuaNET: [LOTATC] LotAtc User Mod
+2020-02-07 18:42:11.303 INFO    LuaNET: [LOTATC] [1/5] LotAtc core loading...
+2020-02-07 18:42:11.316 INFO    LuaNET: [LOTATC] [2/5] LotAtc config loading...
+2020-02-07 18:42:11.319 INFO    LuaNET: [LOTATC] [3/5] LotAtc glue loading...
+2020-02-07 18:42:11.321 INFO    LuaNET: [LOTATC] [4/5] LotAtc User Db loading...
+2020-02-07 18:42:11.322 INFO    LuaNET: [LOTATC] [5/5] LotAtc instance loading...
+2020-02-07 18:42:11.341 INFO    LuaNET: [LOTATC] ---- LotAtc is ready and correctly LOADED ----
+2020-02-07 18:42:11.341 INFO    LuaNET: [LOTATC] ---- Version is	1.2.3-3a348a97
+2020-02-07 18:42:11.341 INFO    LuaNET: [LOTATC] Load callbacks
+2020-02-07 18:42:11.341 INFO    LuaNET: [LOTATC] Use chat
+2020-02-07 18:42:11.341 INFO    LuaNET: Register callbacks
+2020-02-07 18:42:11.342 INFO    TACVIEW.GUI: Loading C++ flight data recorder from [C:\Users\pappa\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2020-02-07 18:42:11.360 INFO    TACVIEW.GUI: Tacview 1.8.2 C++ flight data recorder successfully loaded
+2020-02-07 18:42:11.479 INFO    Dispatcher: //=== END OF INIT ======================================//
+2020-02-07 18:42:11.479 INFO    EDCORE: (dDispatcher)enterToState_:2
+2020-02-07 18:42:11.521 INFO    EDCORE: (dDispatcher)enterToState_:3
+2020-02-07 18:42:11.521 INFO    Lua: Lua CPU usage: metric: average game loading: 48.9778 %
+2020-02-07 18:42:11.544 INFO    DCS: Screen: MainMenu
+2020-02-07 18:42:42.679 INFO    SOUND: Using SSSE3 for peak calc.
+2020-02-07 18:42:42.694 INFO    NET: client has started
+2020-02-07 18:42:42.695 INFO    NET: Using LEDBAT for UDP congestion control.
+2020-02-07 18:43:01.828 INFO    NET: client has stopped
+2020-02-07 18:43:01.828 INFO    DCS: Screen: MainMenu
+2020-02-07 18:43:13.132 INFO    DCS: Screen: Mission
+2020-02-07 18:43:17.217 INFO    LUA-TERRAIN: Init('./Mods/terrains/Caucasus\terrain.cfg.lua')
+2020-02-07 18:43:17.218 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2020-02-07 18:43:17.218 INFO    TERRAIN: lSystem::CleanScenes()
+2020-02-07 18:43:17.218 INFO    TERRAIN: lSystem::exit()
+2020-02-07 18:43:17.218 INFO    VISUALIZER: TerrainRenderer::release
+2020-02-07 18:43:17.218 INFO    TERRAIN: lSystem::CleanScenes()
+2020-02-07 18:43:17.218 INFO    EDOBJECTS: lTypeObjectManagerImpl::clear 13
+2020-02-07 18:43:17.336 INFO    EDTERRAIN4: TERRAIN_REVISION = 3273
+2020-02-07 18:43:17.336 INFO    EDTERRAIN4: Open terrain cfg "./Mods/terrains/Caucasus\terrain.cfg.lua"
+2020-02-07 18:43:17.336 INFO    EDTERRAIN4: Build date: 
+2020-02-07 18:43:17.336 INFO    EDTERRAIN4: Texture quality: "max"
+2020-02-07 18:43:17.454 INFO    EDCORE: 0.116744 s  terrain references
+2020-02-07 18:43:17.455 INFO    EDCORE: 0.000012 s  terrain models
+2020-02-07 18:43:17.457 INFO    EDCORE: 0.000005 s  terrain assets
+2020-02-07 18:43:17.583 INFO    EDCORE: 0.117852 s  terrain assets2
+2020-02-07 18:43:17.816 INFO    EDCORE: 0.232372 s  terrain landfile
+2020-02-07 18:43:17.823 INFO    EDCORE: 0.005893 s  terrain surfaceTile
+2020-02-07 18:43:17.824 INFO    EDTERRAIN4: switchTextures (season=1, minTexture=false)
+2020-02-07 18:43:17.915 INFO    EDCORE: 0.091569 s  terrain vfstextures
+2020-02-07 18:43:17.996 INFO    EDCORE: 0.079493 s  terrain scene
+2020-02-07 18:43:17.998 INFO    EDCORE: 0.000012 s  terrain roaddetails
+2020-02-07 18:43:18.009 INFO    EDCORE: 0.000008 s  terrain forest
+2020-02-07 18:43:21.332 INFO    EDCORE: 3.311554 s  terrain routes
+2020-02-07 18:43:21.333 INFO    EDCORE: 0.000452 s  terrain surfacedetails
+2020-02-07 18:43:21.343 INFO    EDCORE: 0.000068 s  terrain blocks
+2020-02-07 18:43:21.364 INFO    EDCORE: 0.000001 s  terrain references
+2020-02-07 18:43:21.576 INFO    EDCORE: 0.221935 s  terrain superficials
+2020-02-07 18:43:21.583 INFO    EDCORE: 0.006046 s  terrain lma
+2020-02-07 18:43:21.587 INFO    EDCORE: 0.000012 s  terrain vectordatasettings
+2020-02-07 18:43:22.427 INFO    EDCORE: 0.829336 s  terrain navgraph
+2020-02-07 18:43:22.436 INFO    EDCORE: 0.007557 s  terrain vti
+2020-02-07 18:43:22.436 INFO    EDTERRAIN4: terrain time: 5.100089 s
+2020-02-07 18:43:22.446 INFO    TERRAIN: lSystem::InitScenes()
+2020-02-07 18:43:22.446 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=22, month=6)
+2020-02-07 18:43:22.446 INFO    EDTERRAIN4: switchTextures (season=1, minTexture=false)
+2020-02-07 18:43:22.446 INFO    DX11BACKEND: Reloading textures ...
+2020-02-07 18:43:23.298 INFO    LUA-TERRAIN: Init done
+2020-02-07 18:43:23.313 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() START
+2020-02-07 18:43:23.313 INFO    EDTERRAINGRAPHICS41: loading terrain options: Config/terrain/terrainoptions41.lua
+2020-02-07 18:43:23.314 INFO    EDTERRAINGRAPHICS41: loading terrain shading options: ./Mods/terrains/Caucasus/shadingOptions/Caucasus.lua
+2020-02-07 18:43:23.315 INFO    RENDERER: MetaShaderCache2: [108] from ./Mods/terrains/Caucasus/misc/metacache/dcs.lua
+2020-02-07 18:43:23.546 INFO    RENDERER: loaded [108/108]
+2020-02-07 18:43:23.570 WARNING EDTERRAINGRAPHICS41: failed to open "surfaceDetailsHints" section in terrain config
+2020-02-07 18:43:23.574 INFO    EDTERRAINGRAPHICS41: 0.000027s Loaded reference file "caucasus" buffers: 0
+2020-02-07 18:43:23.574 INFO    EDCORE: 0.000046 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.596 INFO    EDTERRAINGRAPHICS41: 0.019052s Loaded reference file "airfieldslights" buffers: 7
+2020-02-07 18:43:23.596 INFO    EDCORE: 0.019061 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.644 INFO    EDTERRAINGRAPHICS41: 0.045711s Loaded reference file "blockbuildings" buffers: 7
+2020-02-07 18:43:23.644 INFO    EDCORE: 0.045719 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.651 INFO    EDTERRAINGRAPHICS41: 0.005816s Loaded reference file "blocktrees" buffers: 0
+2020-02-07 18:43:23.651 INFO    EDCORE: 0.005823 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.739 INFO    EDTERRAINGRAPHICS41: 0.073917s Loaded reference file "caucasusafbbuildings_new" buffers: 27
+2020-02-07 18:43:23.739 INFO    EDCORE: 0.073926 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.757 INFO    EDTERRAINGRAPHICS41: 0.003712s Loaded reference file "caucasusbridges" buffers: 11
+2020-02-07 18:43:23.757 INFO    EDCORE: 0.003721 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.792 INFO    EDTERRAINGRAPHICS41: 0.027178s Loaded reference file "caucasusobjects" buffers: 0
+2020-02-07 18:43:23.792 INFO    EDCORE: 0.027185 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.798 INFO    EDTERRAINGRAPHICS41: 0.004475s Loaded reference file "communication" buffers: 7
+2020-02-07 18:43:23.798 INFO    EDCORE: 0.004481 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.800 INFO    EDTERRAINGRAPHICS41: 0.000177s Loaded reference file "crashmodels" buffers: 1
+2020-02-07 18:43:23.800 INFO    EDCORE: 0.000182 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.846 INFO    EDTERRAINGRAPHICS41: 0.037106s Loaded reference file "crashmodelsfromedm" buffers: 22
+2020-02-07 18:43:23.846 INFO    EDCORE: 0.037115 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.862 INFO    EDTERRAINGRAPHICS41: 0.014460s Loaded reference file "housedetails" buffers: 9
+2020-02-07 18:43:23.862 INFO    EDCORE: 0.014468 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.866 INFO    EDTERRAINGRAPHICS41: 0.001316s Loaded reference file "industrial" buffers: 7
+2020-02-07 18:43:23.866 INFO    EDCORE: 0.001322 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.892 INFO    EDTERRAINGRAPHICS41: 0.016218s Loaded reference file "misc" buffers: 3
+2020-02-07 18:43:23.892 INFO    EDCORE: 0.016227 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.900 INFO    EDTERRAINGRAPHICS41: 0.002363s Loaded reference file "oilplatforms" buffers: 7
+2020-02-07 18:43:23.900 INFO    EDCORE: 0.002374 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.913 INFO    EDTERRAINGRAPHICS41: 0.003453s Loaded reference file "tuapserefinery" buffers: 6
+2020-02-07 18:43:23.913 INFO    EDCORE: 0.003480 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.923 INFO    EDTERRAINGRAPHICS41: 0.002258s Loaded reference file "vehicles" buffers: 9
+2020-02-07 18:43:23.923 INFO    EDCORE: 0.002267 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.933 INFO    EDTERRAINGRAPHICS41: 0.001604s Loaded reference file "vessels" buffers: 7
+2020-02-07 18:43:23.933 INFO    EDCORE: 0.001611 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.950 INFO    EDTERRAINGRAPHICS41: 0.007300s Loaded reference file "walls" buffers: 2
+2020-02-07 18:43:23.950 INFO    EDCORE: 0.007314 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.961 INFO    EDTERRAINGRAPHICS41: 0.006957s Loaded reference file "americanbeech" buffers: 0
+2020-02-07 18:43:23.961 INFO    EDCORE: 0.006963 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.966 INFO    EDTERRAINGRAPHICS41: 0.000726s Loaded reference file "caucasus_fir" buffers: 0
+2020-02-07 18:43:23.966 INFO    EDCORE: 0.000731 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.977 INFO    EDTERRAINGRAPHICS41: 0.000769s Loaded reference file "cypress_oak" buffers: 0
+2020-02-07 18:43:23.977 INFO    EDCORE: 0.000777 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.988 INFO    EDTERRAINGRAPHICS41: 0.001058s Loaded reference file "european_beech" buffers: 0
+2020-02-07 18:43:23.988 INFO    EDCORE: 0.001066 s  landscape4::lReferenceFile
+2020-02-07 18:43:23.999 INFO    EDTERRAINGRAPHICS41: 0.000800s Loaded reference file "green_ash" buffers: 0
+2020-02-07 18:43:23.999 INFO    EDCORE: 0.000805 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.010 INFO    EDTERRAINGRAPHICS41: 0.000722s Loaded reference file "honey_mesquite" buffers: 0
+2020-02-07 18:43:24.010 INFO    EDCORE: 0.000729 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.022 INFO    EDTERRAINGRAPHICS41: 0.001273s Loaded reference file "italiancypress" buffers: 0
+2020-02-07 18:43:24.022 INFO    EDCORE: 0.001279 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.032 INFO    EDTERRAINGRAPHICS41: 0.000615s Loaded reference file "lombardypoplar" buffers: 0
+2020-02-07 18:43:24.032 INFO    EDCORE: 0.000620 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.045 INFO    EDTERRAINGRAPHICS41: 0.001030s Loaded reference file "mountain_maple" buffers: 0
+2020-02-07 18:43:24.045 INFO    EDCORE: 0.001038 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.056 INFO    EDTERRAINGRAPHICS41: 0.001697s Loaded reference file "norwayspruce" buffers: 0
+2020-02-07 18:43:24.056 INFO    EDCORE: 0.001707 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.066 INFO    EDTERRAINGRAPHICS41: 0.001021s Loaded reference file "shrub" buffers: 0
+2020-02-07 18:43:24.066 INFO    EDCORE: 0.001029 s  landscape4::lReferenceFile
+2020-02-07 18:43:24.066 INFO    EDTERRAINGRAPHICS41: InstanceManager2 is completing initialization... 
+2020-02-07 18:43:24.069 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2020-02-07 18:43:24.069 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41: InstanceManager2 complete initialization: 
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   objects:    666
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   subObjects: 493
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   objectLods: 2911
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   objectLodRenderItems: 330
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   MAX_LODS_IN_OBJECT:       10
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   MAX_SUBOBJECTS_IN_OBJECT: 74
+2020-02-07 18:43:24.071 INFO    EDTERRAINGRAPHICS41:   GEOMETRY BUFFERS: 132
+2020-02-07 18:43:24.079 INFO    EDCORE: 0.000006 s  landscape5::OceanFile
+2020-02-07 18:43:24.228 INFO    EDCORE: 0.140837 s  landscape5::GrassFile
+2020-02-07 18:43:24.229 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2020-02-07 18:43:24.243 WARNING LOG: 1 duplicate message(s) skipped.
+2020-02-07 18:43:24.243 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2020-02-07 18:43:24.254 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2020-02-07 18:43:24.276 WARNING LOG: 1 duplicate message(s) skipped.
+2020-02-07 18:43:24.276 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2020-02-07 18:43:24.287 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2020-02-07 18:43:24.376 WARNING LOG: 7 duplicate message(s) skipped.
+2020-02-07 18:43:24.376 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2020-02-07 18:43:24.398 WARNING LOG: 1 duplicate message(s) skipped.
+2020-02-07 18:43:24.398 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2020-02-07 18:43:24.416 INFO    EDTERRAINGRAPHICS41: remapper.deformers is not empty
+2020-02-07 18:43:24.481 INFO    EDTERRAINGRAPHICS41: materialParams[29084]*1536
+2020-02-07 18:43:24.485 INFO    EDCORE: 0.075468 s  landscape5::Surface5File
+2020-02-07 18:43:24.496 INFO    EDTERRAINGRAPHICS41: materialParams[810]*1536
+2020-02-07 18:43:24.496 INFO    EDCORE: 0.001997 s  landscape5::SurfaceTile
+2020-02-07 18:43:24.512 INFO    EDCORE: 0.001707 s  landscape5::Scene5File
+2020-02-07 18:43:24.523 INFO    EDCORE: 0.002502 s  landscape4::lRoutesFile
+2020-02-07 18:43:24.532 INFO    EDCORE: 0.000020 s  landscape4::lSurfaceDetails2File
+2020-02-07 18:43:24.543 INFO    EDTERRAINGRAPHICS41: materialParams[1]*1536
+2020-02-07 18:43:24.543 INFO    EDCORE: 0.000200 s  landscape4::lSuperficialFile
+2020-02-07 18:43:24.554 INFO    EDCORE: 0.000141 s  landscape4::lGeoNamesFile
+2020-02-07 18:43:24.565 INFO    EDCORE: 0.000412 s  landscape5::sup5File
+2020-02-07 18:43:24.576 INFO    EDCORE: 0.000107 s  landscape5::sup5File
+2020-02-07 18:43:24.588 INFO    EDCORE: 0.000001 s  landscape5::navGraph5File
+2020-02-07 18:43:24.588 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() END 1.274872 s
+2020-02-07 18:43:24.588 ERROR_ONCE DX11BACKEND: render target 'DummyShadowMap' not found
+2020-02-07 18:43:25.345 ERROR   LUA-GUI_MAP: Map cannot create object has class key[NavigationPointDescription]!
+2020-02-07 18:43:27.971 INFO    Dispatcher: loadMission C:\Users\pappa\AppData\Local\Temp\DCS.openbeta\tempMission.miz
+2020-02-07 18:43:27.972 INFO    WORLDGENERAL: loading mission from: "C:\Users\pappa\AppData\Local\Temp\DCS.openbeta\tempMission.miz"
+2020-02-07 18:43:27.991 INFO    EDCORE: (dDispatcher)enterToState_:4
+2020-02-07 18:43:28.010 INFO    Dispatcher: Terrain theatre Caucasus
+2020-02-07 18:43:28.031 INFO    Dispatcher: Start
+2020-02-07 18:43:28.033 INFO    LuaNET: [LOTATC] LotAtc Init with update time of 	2
+2020-02-07 18:43:28.033 INFO    LuaNET: [LOTATC] Debug is                        	false
+2020-02-07 18:43:28.033 INFO    LuaNET: [LOTATC] Perfs tests is                  	false
+2020-02-07 18:43:28.105 INFO    Dispatcher: Terrain theatre Caucasus
+2020-02-07 18:43:28.106 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2020-02-07 18:43:28.106 INFO    TERRAIN: lSystem::CleanScenes()
+2020-02-07 18:43:28.211 INFO    TERRAIN: lSystem::InitScenes()
+2020-02-07 18:43:28.211 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=1, month=6)
+2020-02-07 18:43:28.214 WARNING GRAPHICSCORE: already registered Renderer callback
+2020-02-07 18:43:28.220 INFO    VISUALIZER: StartSimulation
+2020-02-07 18:43:28.515 INFO    VISUALIZER: cascade shadows init (preset:'default' quality:4 layers:4 size:4096)
+2020-02-07 18:43:29.092 ERROR_ONCE DX11BACKEND: texture 'LiquidAnimationNormals' not found. Asked from 'EFFECTS2'
+2020-02-07 18:43:29.093 ERROR_ONCE DX11BACKEND: texture 'LiquidAnimationAlphas' not found. Asked from 'EFFECTS2'
+2020-02-07 18:43:29.125 INFO    Dispatcher: initial random seed = 1009495
+2020-02-07 18:43:29.125 INFO    Dispatcher: apply random seed = 1009495
+2020-02-07 18:43:29.395 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2020-02-07 18:43:29.733 ERROR   EDCORE: Can't open file: /models/mig-23ub.owv.
+2020-02-07 18:43:29.733 ERROR   EFFECTS2: OverwingVaporEmitter: file /models/MiG-23UB.owv is not exist
+2020-02-07 18:43:29.734 ERROR   EDCORE: Can't open file: /models/su-57.owv.
+2020-02-07 18:43:29.734 ERROR   EFFECTS2: OverwingVaporEmitter: file /models/SU-57.owv is not exist
+2020-02-07 18:43:29.735 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2020-02-07 18:43:29.735 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2020-02-07 18:43:29.736 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2020-02-07 18:43:29.917 INFO    Config: netview started
+2020-02-07 18:43:30.091 INFO    VISUALIZER: CameraIndependedPreload()
+2020-02-07 18:43:30.091 INFO    VISUALIZER: CameraIndependedPreload() finished
+2020-02-07 18:43:30.091 INFO    DCS: use_xRay: no
+2020-02-07 18:43:30.788 INFO    DCS: MissionSpawn:spawnShips 0
+2020-02-07 18:43:30.797 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'patrol_boat'
+2020-02-07 18:43:30.797 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'patrol_boat'
+2020-02-07 18:43:30.811 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2020-02-07 18:43:31.209 INFO    DCS: MissionSpawn:initScript
+2020-02-07 18:43:31.209 INFO    DCS: MissionSpawn:spawnCoalition red
+2020-02-07 18:43:31.209 INFO    DCS: MissionSpawn:spawnPlanes 0
+2020-02-07 18:43:31.209 INFO    DCS: MissionSpawn:spawnVehicles 0
+2020-02-07 18:43:31.552 INFO    GRAPHICSVISTA: Creating Resource "Unicode" of type 1
+2020-02-07 18:43:31.552 INFO    DCS: MissionSpawn:spawnCoalition blue
+2020-02-07 18:43:31.552 INFO    DCS: MissionSpawn:spawnPlanes 2
+2020-02-07 18:43:31.696 INFO    DCS: MissionSpawn:spawnPlanes 3
+2020-02-07 18:43:31.696 ERROR   EDCORE: Can't open file: /textures/liveries/a-10c/492d fighter sqn (ln)/description.lua.
+2020-02-07 18:43:31.696 ERROR   EDCORE: Can't open file: /textures/liveries/a-10c/turkey/description.lua.
+2020-02-07 18:43:31.696 ERROR   EDCORE: Can't open file: /textures/liveries/a-10c/standard/description.lua.
+2020-02-07 18:43:32.036 INFO    DCS: MissionSpawn:spawnLocalPlayer 1,M-2000C
+2020-02-07 18:43:32.036 ERROR   EDCORE: Can't open file: /textures/liveries/m-2000c/159th gar/description.lua.
+2020-02-07 18:43:32.037 ERROR   EDCORE: Can't open file: /textures/liveries/m-2000c/russia/description.lua.
+2020-02-07 18:43:32.037 ERROR   EDCORE: Can't open file: /textures/liveries/m-2000c/standard/description.lua.
+2020-02-07 18:43:32.619 WARNING EDCORE: Source Bazar/Textures/AvionicsCommon is already mounted to the same mount /textures/.
+2020-02-07 18:43:32.672 INFO    VISUALIZER: cockpit ILV loaded
+2020-02-07 18:43:32.705 ERROR_ONCE DX11BACKEND: Can't load 'Fonts/font_general_RU.dds' in texture array ''.
+2020-02-07 18:43:32.861 ERROR   COCKPITBASE: indicators_keeper::link_all: unable to find link source 'FM_proxy' for indicator 11
+2020-02-07 18:43:32.869 INFO    JSAVIONICS: Shaders preparing...
+2020-02-07 18:43:32.870 INFO    JSAVIONICS: Vertex shader prepared
+2020-02-07 18:43:32.870 INFO    JSAVIONICS: Pixel shader(col) prepared
+2020-02-07 18:43:32.870 INFO    JSAVIONICS: Pixel shader(tex) prepared
+2020-02-07 18:43:32.870 INFO    JSAVIONICS: initState OK
+2020-02-07 18:43:32.990 INFO    INPUT: Key combo skipped. Layer[Unit M-2000C] key = 4145 deviceId = 3 modifiers[] switches[] action[down = 100, ]. Combo already mapped to action [down = 179, ]
+2020-02-07 18:43:32.990 INFO    INPUT: Key combo skipped. Layer[Unit M-2000C] key = 199 deviceId = 1 modifiers[key = 54 deviceId = 1] switches[] action[down = 311, ]. Combo already mapped to action [down = 445, ]
+2020-02-07 18:43:33.055 ERROR   SOUND: source_add(host:COCKPIT_2D, proto:MagicSeek, alt_proto:): can't find proto
+2020-02-07 18:43:33.124 INFO    COCKPITBASE: lua state still active GNS430, 1 (status undefined)
+2020-02-07 18:43:33.124 INFO    COCKPITBASE: lua state still active SNS, 2 (status undefined)
+2020-02-07 18:43:33.124 INFO    COCKPITBASE: lua state still active GNS430_Radio, 3
+2020-02-07 18:43:33.124 INFO    JSAVIONICS: Shaders preparing...
+2020-02-07 18:43:33.124 INFO    JSAVIONICS: Vertex shader prepared
+2020-02-07 18:43:33.124 INFO    JSAVIONICS: Pixel shader(col) prepared
+2020-02-07 18:43:33.124 INFO    JSAVIONICS: Pixel shader(tex) prepared
+2020-02-07 18:43:33.124 INFO    JSAVIONICS: initState OK
+2020-02-07 18:43:34.192 INFO    JSAVIONICS: loaded 129562 nav aids
+2020-02-07 18:43:36.052 INFO    JSAVIONICS: loaded 146684 cities
+2020-02-07 18:43:36.059 INFO    WORLDGENERAL: loaded from mission Scripts/World/birds.lua
+2020-02-07 18:43:36.059 INFO    DCS: dbox not found , skip
+2020-02-07 18:43:36.076 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 0 squares
+2020-02-07 18:43:36.076 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 0 squares
+2020-02-07 18:43:36.076 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.047400 ms
+2020-02-07 18:43:36.103 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\pappa\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2020-02-07 18:43:36.103 INFO    TACVIEW.EXPORT: Tacview 1.8.2 C++ flight data recorder successfully loaded
+2020-02-07 18:43:36.143 INFO    VISUALIZER: Preload() camera=-249231.496733, 1999.557124, 618600.019544 radius=60000.000000
+2020-02-07 18:43:36.143 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(-249231, 1999.56, 618600), radius=60000
+2020-02-07 18:43:36.809 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 1  released 0
+2020-02-07 18:43:36.809 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 4  released 0
+2020-02-07 18:43:36.809 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.086600 ms
+2020-02-07 18:43:43.845 INFO    VISUALIZER: Preload() finished
+2020-02-07 18:43:43.877 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.8.2 Loaded
+2020-02-07 18:43:43.877 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2020-02-07 18:43:43.877 INFO    LuaNET: [LOTATC] LotAtc Load mission:
+2020-02-07 18:43:43.878 INFO    LuaNET: table: 000000070DB49C90
+2020-02-07 18:43:43.878 INFO    LuaNET: [LOTATC] LotAtc Deinit
+2020-02-07 18:43:43.878 INFO    LuaNET: [LOTATC] --------------- LotAtc OFF
+2020-02-07 18:43:43.878 INFO    LuaNET: [LOTATC] LotAtc Load mission DONE
+2020-02-07 18:43:43.878 INFO    DCS: Screen: mission_offline
+2020-02-07 18:43:43.879 INFO    Dispatcher: precache units resources in slots
+2020-02-07 18:43:43.931 INFO    Lua: Lua CPU usage: metric: average mission loading: 3.7138 %
+2020-02-07 18:43:43.931 INFO    Dispatcher: loadMission Done: Сontrol passed to the player
+2020-02-07 18:43:46.143 ERROR_ONCE DX11BACKEND: texture 'm2kc_12c' not found. Asked from 'NGMODEL'
+2020-02-07 18:43:47.342 INFO    TACVIEW.DLL: Recording flight data in [K:\Spelen\1C\Tacview_ACMI bestanden\Tacview-20200207-194347-DCS-M-2000C vs F-15E dogfight.zip.acmi]
+2020-02-07 18:43:47.870 WARNING DXGUI: Invalid blur type!
+2020-02-07 18:44:43.886 INFO    DX11BACKEND: Unloaded 301 mb of textures.
+2020-02-07 18:46:43.878 INFO    DX11BACKEND: Unloaded 423 mb of textures.
+2020-02-07 18:48:21.836 INFO    Lua: Lua CPU usage: metric: average mission execution: 1.0509 %
+2020-02-07 18:49:43.951 INFO    DX11BACKEND: Unloaded 101 mb of textures.
+2020-02-07 18:51:08.256 INFO    Lua: Lua CPU usage: metric: average mission execution: 0.9373 %
+2020-02-07 18:51:11.687 INFO    Dispatcher: Stop
+2020-02-07 18:51:11.700 INFO    TACVIEW.DLL: End of flight data recording
+2020-02-07 18:51:11.955 INFO    Config: netview stopped
+2020-02-07 18:51:12.036 INFO    TERRAIN: lSystem::CleanScenes()
+2020-02-07 18:51:12.039 INFO    VISUALIZER: StopSimulation
+2020-02-07 18:51:12.040 INFO    VISUALIZER: Stopped collection of statistic.
+2020-02-07 18:51:12.047 INFO    EDCORE: (dDispatcher)enterToState_:3
+2020-02-07 18:51:12.067 ERROR   LUA-GUI_MAP: Map cannot create object has class key[NavigationPointDescription]!
+2020-02-07 18:51:14.616 INFO    Dispatcher: loadMission C:\Users\pappa\AppData\Local\Temp\DCS.openbeta\tempMission.miz
+2020-02-07 18:51:14.616 INFO    WORLDGENERAL: loading mission from: "C:\Users\pappa\AppData\Local\Temp\DCS.openbeta\tempMission.miz"
+2020-02-07 18:51:14.630 INFO    EDCORE: (dDispatcher)enterToState_:4
+2020-02-07 18:51:14.650 INFO    Dispatcher: Start
+2020-02-07 18:51:14.701 INFO    Dispatcher: Terrain theatre Caucasus
+2020-02-07 18:51:14.701 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2020-02-07 18:51:14.701 INFO    TERRAIN: lSystem::CleanScenes()
+2020-02-07 18:51:14.701 INFO    TERRAIN: lSystem::InitScenes()
+2020-02-07 18:51:14.701 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=1, month=6)
+2020-02-07 18:51:14.705 WARNING GRAPHICSCORE: already registered Renderer callback
+2020-02-07 18:51:14.711 INFO    VISUALIZER: StartSimulation
+2020-02-07 18:51:15.007 INFO    VISUALIZER: cascade shadows init (preset:'default' quality:4 layers:4 size:4096)
+2020-02-07 18:51:15.195 ERROR_ONCE DX11BACKEND: render target 'DummyShadowMap' not found
+2020-02-07 18:51:15.198 INFO    Dispatcher: initial random seed = 1475626
+2020-02-07 18:51:15.198 INFO    Dispatcher: apply random seed = 1475626
+2020-02-07 18:51:15.216 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2020-02-07 18:51:15.498 ERROR   EDCORE: Can't open file: /models/mig-23ub.owv.
+2020-02-07 18:51:15.498 ERROR   EFFECTS2: OverwingVaporEmitter: file /models/MiG-23UB.owv is not exist
+2020-02-07 18:51:15.498 ERROR   EDCORE: Can't open file: /models/su-57.owv.
+2020-02-07 18:51:15.498 ERROR   EFFECTS2: OverwingVaporEmitter: file /models/SU-57.owv is not exist
+2020-02-07 18:51:15.502 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2020-02-07 18:51:15.502 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2020-02-07 18:51:15.503 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2020-02-07 18:51:15.576 INFO    Config: netview started
+2020-02-07 18:51:15.603 INFO    VISUALIZER: CameraIndependedPreload()
+2020-02-07 18:51:15.603 INFO    VISUALIZER: CameraIndependedPreload() finished
+2020-02-07 18:51:15.603 INFO    DCS: use_xRay: no
+2020-02-07 18:51:15.815 INFO    DCS: MissionSpawn:spawnShips 0
+2020-02-07 18:51:15.816 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'patrol_boat'
+2020-02-07 18:51:15.816 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'patrol_boat'
+2020-02-07 18:51:15.818 WARNING EFFECTS2: BowwaveEmitter: unknown parameter
+2020-02-07 18:51:15.875 INFO    DCS: MissionSpawn:initScript
+2020-02-07 18:51:15.875 INFO    DCS: MissionSpawn:spawnCoalition red
+2020-02-07 18:51:15.875 INFO    DCS: MissionSpawn:spawnPlanes 0
+2020-02-07 18:51:15.875 INFO    DCS: MissionSpawn:spawnVehicles 0
+2020-02-07 18:51:15.877 INFO    DCS: MissionSpawn:spawnCoalition blue
+2020-02-07 18:51:15.877 INFO    DCS: MissionSpawn:spawnPlanes 2
+2020-02-07 18:51:15.879 INFO    DCS: MissionSpawn:spawnPlanes 3
+2020-02-07 18:51:15.881 INFO    DCS: MissionSpawn:spawnLocalPlayer 1,M-2000C
+2020-02-07 18:51:15.885 WARNING EDCORE: Source Bazar/Textures/AvionicsCommon is already mounted to the same mount /textures/.
+2020-02-07 18:51:15.896 INFO    VISUALIZER: cockpit ILV loaded
+2020-02-07 18:51:15.977 ERROR   COCKPITBASE: indicators_keeper::link_all: unable to find link source 'FM_proxy' for indicator 11
+2020-02-07 18:51:15.992 INFO    INPUT: Key combo skipped. Layer[Unit M-2000C] key = 4145 deviceId = 3 modifiers[] switches[] action[down = 100, ]. Combo already mapped to action [down = 179, ]
+2020-02-07 18:51:15.992 INFO    INPUT: Key combo skipped. Layer[Unit M-2000C] key = 199 deviceId = 1 modifiers[key = 54 deviceId = 1] switches[] action[down = 311, ]. Combo already mapped to action [down = 445, ]
+2020-02-07 18:51:16.040 ERROR   SOUND: source_add(host:COCKPIT_2D, proto:MagicSeek, alt_proto:): can't find proto
+2020-02-07 18:51:16.043 INFO    COCKPITBASE: lua state still active GNS430, 1 (status undefined)
+2020-02-07 18:51:16.043 INFO    COCKPITBASE: lua state still active SNS, 2 (status undefined)
+2020-02-07 18:51:16.043 INFO    COCKPITBASE: lua state still active GNS430_Radio, 3
+2020-02-07 18:51:16.043 INFO    JSAVIONICS: Shaders preparing...
+2020-02-07 18:51:16.043 INFO    JSAVIONICS: Vertex shader prepared
+2020-02-07 18:51:16.044 INFO    JSAVIONICS: Pixel shader(col) prepared
+2020-02-07 18:51:16.047 INFO    JSAVIONICS: Pixel shader(tex) prepared
+2020-02-07 18:51:16.047 INFO    JSAVIONICS: initState OK
+2020-02-07 18:51:16.893 INFO    JSAVIONICS: loaded 129562 nav aids
+2020-02-07 18:51:18.710 INFO    JSAVIONICS: loaded 146684 cities
+2020-02-07 18:51:18.713 INFO    WORLDGENERAL: loaded from mission Scripts/World/birds.lua
+2020-02-07 18:51:18.746 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\pappa\Saved Games\DCS.openbeta\Mods\tech\Tacview\bin\]
+2020-02-07 18:51:18.747 INFO    TACVIEW.EXPORT: Tacview 1.8.2 C++ flight data recorder successfully loaded
+2020-02-07 18:51:18.786 INFO    VISUALIZER: Preload() camera=-249231.522434, 1999.557757, 618600.013558 radius=60000.000000
+2020-02-07 18:51:18.786 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(-249232, 1999.56, 618600), radius=60000
+2020-02-07 18:51:19.126 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 1  released 88
+2020-02-07 18:51:19.128 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 4  released 87
+2020-02-07 18:51:19.128 INFO    EDTERRAINGRAPHICS41: surface5 clean up 5.882000 ms
+2020-02-07 18:51:21.021 INFO    VISUALIZER: Preload() finished
+2020-02-07 18:51:21.064 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.8.2 Loaded
+2020-02-07 18:51:21.064 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2020-02-07 18:51:21.064 INFO    DCS: Screen: mission_offline
+2020-02-07 18:51:21.066 INFO    Dispatcher: precache units resources in slots
+2020-02-07 18:51:21.111 INFO    Lua: Lua CPU usage: metric: average mission loading: 4.0853 %
+2020-02-07 18:51:21.111 INFO    Dispatcher: loadMission Done: Сontrol passed to the player
+2020-02-07 18:51:23.807 INFO    TACVIEW.DLL: Recording flight data in [K:\Spelen\1C\Tacview_ACMI bestanden\Tacview-20200207-195124-DCS.zip.acmi]
+2020-02-07 18:51:25.890 WARNING DXGUI: Invalid blur type!

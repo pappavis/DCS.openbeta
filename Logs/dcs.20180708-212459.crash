@@ -1,0 +1,29 @@
+# -------------- 20180708-212459 --------------
+K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll
+# C0000005 ACCESS_VIOLATION at 03451BEA 00:00000000
+00000000 00000000 0000:00000000 
+03451BEA 012FF0D0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+EFA
+03451B86 012FF100 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF130 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF160 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF190 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF1C0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF1F0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF220 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF250 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF280 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF2B0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF2E0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF310 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF340 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF370 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF3A0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+03451B86 012FF3D0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+E96
+034512F9 012FF410 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetStatistics@LinearStorage@@UEAAXQEAD@Z()+609
+0343B4D4 012FF440 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetSegmentList@viObjectManager@@QEAAHAEBVVec3f@osg@@0PEAPEAVviObject@@HI@Z()+9A4
+0343B404 012FF470 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\edObjects.dll ?GetSegmentList@viObjectManager@@QEAAHAEBVVec3f@osg@@0PEAPEAVviObject@@HI@Z()+8D4
+DC036B42 012FF4E0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe
+DBCA5355 012FFCC0 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe
+DC1D26B3 012FFD00 0000:00000000 K:\Spelen\1C\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe
+47F41FE4 012FFD30 0000:00000000 C:\WINDOWS\System32\KERNEL32.DLL BaseThreadInitThunk()+14
+4833F061 012FFD80 0000:00000000 C:\WINDOWS\SYSTEM32\ntdll.dll RtlUserThreadStart()+21
