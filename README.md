@@ -5,10 +5,10 @@ version: 20200215
 
 ## Installasie
 Stap 1:
->> cd C:\Users\[gebruikersnaam]\Saved Games
+> cd C:\Users\[gebruikersnaam]\Saved Games
 
 Stap 2:
->> git clone https://github.com/pappavis/DCS.openbeta
+> git clone https://github.com/pappavis/DCS.openbeta
 
 Stap 3:
 Start DCS World open-beta versie.
